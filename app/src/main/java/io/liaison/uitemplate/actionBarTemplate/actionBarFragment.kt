@@ -16,7 +16,7 @@ class actionBarFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_action_bar, container, false)
-        val toolbar = view.findViewById<MaterialToolbar>(R.id.toolar)
+        val toolbar = view.findViewById<MaterialToolbar>(R.id.toolbar)
         (activity as AppCompatActivity).setSupportActionBar(toolbar)
         return view
     }
